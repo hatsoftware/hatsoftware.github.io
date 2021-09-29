@@ -767,6 +767,42 @@ form label {
   margin-bottom: 10px;
 }
 
+.peature {
+  width:100%;height:210px;
+  color: #1a1a1a;
+  border:0px solid red;
+  margin-bottom: 20px;
+}
+.peature-left{
+  width:23%; height:100%;
+  float:left;
+}
+.peature-right {
+  border:0px solid black;
+  float: right;
+  width: 75%; height:100%;
+}
+.peature h3 {
+  font-size: 18px;
+  color: #1a1a1a;
+  margin-bottom: 2%;
+  height:auto; max-height:36%;
+}
+.peature p {  
+  overflow-y:auto;overflow-x: hidden;
+  height:50%;
+}
+.peature button {
+  float:right;
+  padding:0px 5px 0px 5px;
+  border-radius:5px;
+  margin-right:7%;
+  height:10%;
+  font-size: 11px;
+  color: white;
+  background:red;
+}
+
 .gtco-heading {
   margin-bottom: 5em;
 }
@@ -2074,3 +2110,4 @@ form label {
 #jeheader img{ height:100px; }
 #hd_1{ font-size:35px;height:50px;margin:0px;padding:10px 0 0 0;text-align:center;background:none; }
 #hd_2{ font-size:22px;height:auto;margin:0px;padding:0px 0 0px 0;text-align:center;background:none; }
+
